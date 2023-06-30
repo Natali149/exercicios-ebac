@@ -11,7 +11,6 @@ Dado que eu acesse a página de Checkout da EBAC-SHOP
 Cenário: Dados obrigatórios
 Quando eu digitar nome "Natali"
 E deixar a caixa dos demais campos em branco
-E acionar a o botão de finalizar compra
 Então deve exibir a mensagem "Por favor, preencha os dados obrigatórios*"
 
 Cenário: Email inválido
@@ -22,5 +21,4 @@ Então deve aparecer a mensagem de alerta "Por favor, insira um email válido"
 Cenário: Campos em branco
 Quando eu digitar nome "Natali"
 E deixar a caixa dos demais campos em branco
-E acionar a o botão de finalizar compra
 Então deve exibir a mensagem "Por favor, preencha os campos deixado em branco"

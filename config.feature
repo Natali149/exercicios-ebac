@@ -10,22 +10,16 @@ Contexto:
 Dado que eu acesse a página da EBAC-SHOP e seleciono um produto
 
 Cenário: Selecao de cor, tamanho e quantidade
-E eu escolher a cor "Blue"
-E o tamanho "XS"
-E a quantidade "5"
+E eu escolher a cor "Blue", o tamanho "XS", a quantidade "5"
 Quando eu acionar o botão comprar
 Então deve exibir uma mensagem "Produto adicionado no carrinho!"
 
 Cenário: Quantidade de produto por venda
-E eu escolher a cor "Blue"
-E o tamanho "XS"
-E eu coloco a quantidade "11"
+E eu escolher a cor "Blue", o tamanho "XS", a quantidade "11"
 Quando eu acionar o botão comprar
 Então deve exibir uma mensagem de alerta: "Não é permitido comprar acima de 10 produtos"
 
 Cenário: Botão Limpar
-E eu escolher a cor "Blue"
-E o tamanho "XS"
-E a quantidade "5"
+E eu escolher a cor "Blue", o tamanho "XS", a quantidade "5"
 Quando eu acionar o botão Limpar
 Então deve exibir uma mensagem "As características selecionadas foram removidas"
